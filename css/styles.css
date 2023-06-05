@@ -20,12 +20,10 @@ header {
    color: white;
 }
 
-header a {
+a {
   color: white;
   text-decoration: none;
 }
-
-
 
 h2 {
   font-family: ballers-delight, sans-serif;
@@ -56,6 +54,27 @@ h2 {
   text-shadow: -2px 2px #207FCF;
 }
 
+p {
+  background-color: #ffffffb0;
+}
+
+ol {
+  background-color: #ffffffb0;
+}
+
+.food-box {
+  background-color: #ffffffb0;
+}
+
+.food-box p {
+  background-color: #ffffff00;
+}
+
+.street-food a {
+  color: #000;
+  text-decoration: none;
+}
+
 main {
   background-image: url("../img/bg-decoration.png");
   background-size: cover;
@@ -64,4 +83,9 @@ main {
 
 footer {
   background-color: #00000094;
+  color: white;
+}
+
+footer p {
+  background-color: #ffffff00;
 }
