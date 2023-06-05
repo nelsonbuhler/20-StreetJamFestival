@@ -16,11 +16,49 @@ img {
 
 header {
    background-image: url("../img/bg-title.jpg");
+   font-family: ballers-delight, sans-serif;
+   color: white;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+}
+
+
+
+h2 {
+  font-family: ballers-delight, sans-serif;
+  color: white;
+}
+
+.yellow {
+  text-shadow: -2px 2px #AEA900;
+}
+
+.purple {
+  text-shadow: -2px 2px #9B55FF;
+}
+
+.green {
+  text-shadow: -2px 2px #57d057;
+}
+
+.orange {
+  text-shadow: -2px 2px #FFAA43;
+}
+
+.red {
+  text-shadow: -2px 2px #FF80DD;
+}
+
+.blue {
+  text-shadow: -2px 2px #207FCF;
 }
 
 main {
   background-image: url("../img/bg-decoration.png");
-  background-size: 200%;
+  background-size: cover;
   background-position: center;
 }
 
