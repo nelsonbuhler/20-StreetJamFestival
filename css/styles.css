@@ -1,5 +1,5 @@
 html {
-  background-color: rgb(44, 145, 208);
+  background-color: rgb(38, 38, 38);
 }
 
 body {
@@ -8,7 +8,7 @@ body {
   background-image: url("../img/bg-site.jpg");
   background-size: 250%;
   font-family: aktiv-grotesk, sans-serif;
-  font-size: 15px;
+  font-size: 13px;
 }
 
 img {
@@ -37,12 +37,18 @@ a {
 
 header nav {
   display: flex;
-  padding-bottom: 13px;
   justify-content: space-around;
+  padding-bottom: 13px;
 }
 
 header a {
   font-size: 15px;
+}
+
+main {
+  background-image: url("../img/bg-decoration.png");
+  background-size: cover;
+  background-position: center;
 }
 
 h2 {
@@ -76,33 +82,88 @@ h2 {
 .blue {
   text-shadow: -1.5px 1.5px #207FCF;
 }
-
 p {
   background-color: #ffffffb0;
+  padding: 10px;
+  border-radius: 5px;
 }
 
 ol {
   background-color: #ffffffb0;
   list-style-type: none;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+strong {
+  font-weight: 500;
+}
+
+.street-jam-festival .first-text {
+  margin: 0px 15px 40px 40px;
+}
+
+.street-jam-festival .second-text {
+  margin: 0px 40px 80px 15px;
+}
+
+.street-art .first-text {
+  margin: 0px 80px 40px 30px;
+}
+
+.portrait {
+  display: flex;
+  background-image: url("../img/bg-portrait.png");
+  background-size: 100%;
+  background-position: right;
+  justify-content: flex-end;
+  padding: 30px;
+}
+
+.portrait img {
+  width: 50%;
+}
+
+.street-art .second-text {
+  margin: 0px 15px 80px 15px;
+}
+
+.skate .first-text {
+  margin: 0px 80px 40px 30px;
+}
+
+.skate .second-text {
+  margin: 0px 15px 80px 15px;
+}
+
+.music .first-text {
+  margin: 0px 40px 80px 40px;
+}
+
+.street-food .first-text {
+  margin: 0px 30px 40px 30px;
 }
 
 .food-box {
   background-color: #ffffffb0;
+  margin: 0px 80px 80px 15px;
+  border-radius: 5px;
+}
+
+.food-box-right {
+  margin: 0px 15px 80px 80px;
 }
 
 .food-box p {
   background-color: #ffffff00;
+  margin: 5px 10px;
 }
 
 .street-food a {
   color: #000;
+  font-weight: 300;
   text-decoration: none;
-}
-
-main {
-  background-image: url("../img/bg-decoration.png");
-  background-size: cover;
-  background-position: center;
+  margin: 10px;
 }
 
 footer {
@@ -120,7 +181,7 @@ footer p {
   margin-left: 35px;
 }
 
-.logo img {
+.logo a {
   display: flex;
   width: 10%;
 }
@@ -129,7 +190,7 @@ footer p {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  margin: 25px 30px 22px 0px;
+  margin: 25px 15px 22px 15px;
 }
 
 footer .mail {
