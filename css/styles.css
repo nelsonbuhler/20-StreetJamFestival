@@ -16,43 +16,55 @@ img {
 }
 
 header {
+  display: flex;
    background-image: url("../img/bg-title.jpg");
    font-family: ballers-delight, sans-serif;
    color: white;
+   flex-direction: column;
+}
+
+h1 {
+  flex-direction: column;
+  font-size: 15px;
+  background-color: #000000ce;
 }
 
 a {
+  flex-direction: row;
   color: white;
+  font-size: 15px;
   text-decoration: none;
 }
 
 h2 {
+  flex-wrap: nowrap;
   font-family: ballers-delight, sans-serif;
+  font-size: 20px;
   color: white;
 }
 
 .yellow {
-  text-shadow: -2px 2px #AEA900;
+  text-shadow: -1.5px 1.5px #AEA900;
 }
 
 .purple {
-  text-shadow: -2px 2px #9B55FF;
+  text-shadow: -1.5px 1.5px #9B55FF;
 }
 
 .green {
-  text-shadow: -2px 2px #57d057;
+  text-shadow: -1.5px 1.5px #57d057;
 }
 
 .orange {
-  text-shadow: -2px 2px #FFAA43;
+  text-shadow: -1.5px 1.5px #FFAA43;
 }
 
 .red {
-  text-shadow: -2px 2px #FF80DD;
+  text-shadow: -1.5px 1.5px #FF80DD;
 }
 
 .blue {
-  text-shadow: -2px 2px #207FCF;
+  text-shadow: -1.5px 1.5px #207FCF;
 }
 
 p {
