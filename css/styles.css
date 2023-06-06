@@ -18,6 +18,7 @@ img {
 
 header {
   background-image: url("../img/bg-title.jpg");
+  background-size: 113%;
   font-family: ballers-delight, sans-serif;
   color: white;
 }
@@ -25,23 +26,23 @@ header {
 h1 {
   font-size: 12px;
   padding: 5px;
-  margin-bottom: 50px;
+  margin-bottom: 100px;
 }
 
 a {
   color: white;
-  font-size: 15px;
+  font-size: 10px;
   text-decoration: none;
 }
 
 header nav {
-  margin-left: 29px;
-  padding-bottom: 10px;
+  display: flex;
+  padding-bottom: 13px;
+  justify-content: space-around;
 }
 
 header a {
-  margin: 10px;
-  font-size: 10px;
+  font-size: 15px;
 }
 
 h2 {
