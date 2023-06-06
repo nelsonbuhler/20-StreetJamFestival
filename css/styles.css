@@ -17,24 +17,31 @@ img {
 }
 
 header {
-  display: flex;
-   background-image: url("../img/bg-title.jpg");
-   font-family: ballers-delight, sans-serif;
-   color: white;
-   flex-direction: column;
+  background-image: url("../img/bg-title.jpg");
+  font-family: ballers-delight, sans-serif;
+  color: white;
 }
 
 h1 {
-  flex-direction: column;
-  font-size: 15px;
-  background-color: #000000ce;
+  font-size: 12px;
+  padding: 5px;
+  margin-bottom: 50px;
 }
 
 a {
-  flex-direction: row;
   color: white;
   font-size: 15px;
   text-decoration: none;
+}
+
+header nav {
+  margin-left: 29px;
+  padding-bottom: 10px;
+}
+
+header a {
+  margin: 10px;
+  font-size: 10px;
 }
 
 h2 {
@@ -103,14 +110,13 @@ footer {
 }
 
 footer h2 {
-  margin-bottom: -8px;
+  margin-bottom: -5px;
   padding-top: 13px;
 }
 
 footer p {
   background-color: #ffffff00;
   margin-left: 35px;
-  margin-bottom: 25px;
 }
 
 .logo img {
@@ -122,8 +128,7 @@ footer p {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  margin-right: 30px;
-  margin-bottom: 22px;
+  margin: 25px 30px 22px 0px;
 }
 
 footer .mail {
