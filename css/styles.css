@@ -61,6 +61,7 @@ p {
 
 ol {
   background-color: #ffffffb0;
+  list-style-type: none;
 }
 
 .food-box {
