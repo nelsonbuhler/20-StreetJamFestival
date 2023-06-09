@@ -59,6 +59,10 @@ h2 {
   margin-left: 12px;
 }
 
+.street-jam-festival h2 {
+  margin-top: 40px;
+}
+
 .yellow {
   text-shadow: -1.5px 1.5px #AEA900;
 }
@@ -114,14 +118,15 @@ strong {
 .portrait {
   display: flex;
   background-image: url("../img/bg-portrait.png");
-  background-size: 100%;
+  background-size: 80%;
   background-position: right;
+  background-repeat: no-repeat;
   justify-content: flex-end;
-  padding: 30px;
+  padding: 40px 0px 40px 30px;
 }
 
 .portrait img {
-  width: 50%;
+  width: 46%;
 }
 
 .street-art .second-text {
@@ -156,14 +161,17 @@ strong {
 
 .food-box p {
   background-color: #ffffff00;
-  margin: 5px 10px;
+  margin: 0px;
 }
 
 .street-food a {
+  display: flex;
+  justify-content: flex-end;
   color: #000;
   font-weight: 300;
   text-decoration: none;
   margin: 10px;
+  padding: 5px;
 }
 
 footer {
